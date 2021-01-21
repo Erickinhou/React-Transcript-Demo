@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from 'react'
+import json from './sample/KateDarling-bbcKaldiTranscriptWithSpeakerSegments.json'
+import TranscriptEditor from "@bbc/react-transcript-editor";
+import { TranscriptStyled } from './app.style'
 function App() {
+  const [transcriptData, ] = useState(json)
+  const [mediaUrl, ] = useState('https://download.ted.com/talks/KateDarling_2018S-950k.mp4')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TranscriptStyled>
+      <TranscriptEditor
+        transcriptData = {transcriptData}
+        mediaUrl={mediaUrl}
+        sttJsonType= 'bbckaldi'
+        isEditable={true}
+        spellCheck={false}
+        handleAutoSaveChanges={()=> {console.log('saved');}}
+        autoSaveContentType={"digitalpaperedit"}
+        />
+    </TranscriptStyled>
   );
 }
 
