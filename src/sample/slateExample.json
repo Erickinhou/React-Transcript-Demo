@@ -1,0 +1,181 @@
+{
+  "words": [
+    { "id": 0,
+      "start": 1.900,
+      "end": 2.300,
+      "text": "When"
+    },
+    { "id": 1,
+      "start": 2.300,
+      "end": 2.500,
+      "text": "you"
+    },
+    { "id": 2,
+      "start": 2.500,
+      "end": 2.700,
+      "text": "look"
+    },
+    { "id": 3,
+      "start": 2.700,
+      "end": 2.900,
+      "text": "at"
+    },
+    { "id": 4,
+      "start": 2.900,
+      "end": 4.000,
+      "text": "the"
+    },
+    { "id": 5,
+      "start": 4.000,
+      "end": 5.000,
+      "text": "playground"
+    },
+    { "id": 6,
+      "start": 5.000,
+      "end": 5.200,
+      "text": "and"
+    },
+    { "id": 7,
+      "start": 5.200,
+      "end": 5.600,
+      "text": "are"
+    },
+    { "id": 8,
+      "start": 5.600,
+      "end": 5.800,
+      "text": "you"
+    },
+    { "id": 9,
+      "start": 5.800,
+      "end": 6.000,
+      "text": "sure"
+    },
+    { "id": 10,
+      "start": 6.000,
+      "end": 7.000,
+      "text": "behind"
+    },
+    { "id": 11,
+      "start": 7.000,
+      "end": 7.200,
+      "text": "it?"
+    },
+    { "id": 12,
+      "start": 8.800,
+      "end": 9.200,
+      "text": "And"
+    },
+    { "id": 13,
+      "start": 9.200,
+      "end": 9.400,
+      "text": "you"
+    },
+    { "id": 14,
+      "start": 9.400,
+      "end": 9.600,
+      "text": "have"
+    },
+    { "id": 15,
+      "start": 9.600,
+      "end": 10.500,
+      "text": "this"
+    },
+    { "id": 16,
+      "start": 10.500,
+      "end": 10.900,
+      "text": "feeling"
+    },
+    { "id": 17,
+      "start": 10.900,
+      "end": 11.400,
+      "text": "coming"
+    },
+    { "id": 18,
+      "start": 11.400,
+      "end": 11.900,
+      "text": "over"
+    },
+    { "id": 19,
+      "start": 11.900,
+      "end": 12.100,
+      "text": "you"
+    },
+    { "id": 20,
+      "start": 12.100,
+      "end": 13.400,
+      "text": "you"
+    },
+    { "id": 21,
+      "start": 13.400,
+      "end": 14.200,
+      "text": "cannot"
+    },
+    { "id": 22,
+      "start": 14.200,
+      "end": 15.200,
+      "text": "not"
+    },
+    { "id": 23,
+      "start": 15.200,
+      "end": 15.600,
+      "text": "look"
+    },
+    { "id": 24,
+      "start": 15.600,
+      "end": 15.800,
+      "text": "up"
+    },
+    { "id": 25,
+      "start": 15.800,
+      "end": 17.100,
+      "text": "and"
+    },
+    { "id": 26,
+      "start": 17.100,
+      "end": 17.400,
+      "text": "see."
+    },
+    { "id": 27,
+      "start": 18.500,
+      "end": 19.000,
+      "text": "Thank"
+    },
+    { "id": 28,
+      "start": 19.000,
+      "end": 19.200,
+      "text": "you."
+    }
+  ],
+  "paragraphs": [
+    { "id": 0,
+      "start": 1.900,
+      "end": 5.000,
+      "speaker": "U_UKN" 
+    },
+    { "id": 1,
+      "start": 5.000,
+      "end": 7.200,
+      "speaker": "U_UKN" 
+    },
+    { "id": 2,
+      "start": 8.800,
+      "end": 10.900,
+      "speaker": "U_UKN" 
+    },
+    { "id": 4,
+      "start": 10.900,
+      "end": 14.200,
+      "speaker": "U_UKN" 
+    },
+    { "id": 5,
+      "start": 14.200,
+      "end": 17.400,
+      "speaker": "U_UKN" 
+    },
+    { "id": 6,
+      "start": 18.500,
+      "end": 19.200,
+      "speaker": "U_UKN" 
+    }
+  ]
+}

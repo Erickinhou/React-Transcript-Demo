@@ -1,22 +1,33 @@
-import React, { useState } from 'react'
-import json from './sample/KateDarling-bbcKaldiTranscriptWithSpeakerSegments.json'
-import TranscriptEditor from "@bbc/react-transcript-editor";
+import React from 'react'
+// import json from './sample/sttGoogle.json'
+import jsonSlate from './sample/slateExample.json'
+import SlateTranscriptEditor from 'slate-transcript-editor'
+import 'bootstrap-css-only';
+import video from './sample/video.mp4'
 import { TranscriptStyled } from './app.style'
+
 function App() {
-  const [transcriptData, ] = useState(json)
-  const [mediaUrl, ] = useState('https://download.ted.com/talks/KateDarling_2018S-950k.mp4')
+ // const [transcriptData, ] = useState(json)
   return (
     <TranscriptStyled>
-      <TranscriptEditor
-        transcriptData = {transcriptData}
-        mediaUrl={mediaUrl}
-        sttJsonType= 'bbckaldi'
-        isEditable={true}
-        spellCheck={false}
-        handleAutoSaveChanges={()=> {console.log('saved');}}
-        autoSaveContentType={"digitalpaperedit"}
-        />
+      <SlateTranscriptEditor
+        mediaUrl={video}
+        transcriptData={jsonSlate}
+        isEditable= {true}
+        showTimecodes={true}
+        showSpeakers={false}
+      />
     </TranscriptStyled>
+    // <>
+    //   <TranscriptStyled>
+    //     <TranscriptEditor
+    //     mediaUrl={'https://download.ted.com/talks/KateDarling_2018S-950k.mp4'}
+    //     transcriptData={json}
+    //     isEditable= {true}
+    //     sttJsonType= {'google-stt'}
+    //     />
+    //   </TranscriptStyled>
+    // </>
   );
 }
 
